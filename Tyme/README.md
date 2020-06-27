@@ -18,4 +18,6 @@ The command support 3 parameters for precisioncurrently:
 - `30T`: 30min
 - `1H`: 1h
 
-![Working hour distribution for different precision](https://raw.githubusercontent.com/zdong1995/PicGo/master/img/workinghour.jpg)
+![1H](https://raw.githubusercontent.com/zdong1995/PicGo/master/img/1H.png)
+![30T](https://raw.githubusercontent.com/zdong1995/PicGo/master/img/30T.png)
+![15T](https://raw.githubusercontent.com/zdong1995/PicGo/master/img/15T.png)
