@@ -1,3 +1,9 @@
+(*
+	Generate report for customized days before current date and copy the text to clipboard.
+
+	Copyright © 2020 Zhang Dong
+	Licensed under MIT License
+*)
 tell application "OmniFocus"
 	set n to the text returned of (display dialog "How many days before right now do you want to report?" default answer "7")
 	set curDate to (current date) - n * days

@@ -1,3 +1,7 @@
+# Script designed to visulize the working time distribution from your time logger.
+# Copyright © 2020 Zhang Dong
+# Licensed under MIT License
+
 import sys
 import pandas as pd
 import numpy as np
