@@ -11,3 +11,15 @@ Applescript hook for Tyme 2 to automate with OmniFocus. For each task you comple
 Automated scripts to enhance OmniFocus and simplify the management procedure.
 ### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)
 For my weekly plan, I will tag some tasks with tag `this week`. Then to get things done everyday, I will select some tasks to tag `today` and then remove the tag `this week`. This script will help you do this just by one click.
+### [WeeklyReport](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/WeeklyReport)
+Generate report for customized days before current date and copy the text to clipboard.
+The format of report will be:
+``` markdown
+## Completed Tasks in Last 7 days
+YYYY/MM/D1 - YYYY/MM/D7
+
+
+### YYYY/MM/D1
+- [x] Task Name - [*Project Name*]
+```
+There will be a dialog window to ask "How many days before right now do you want to report?", and the default value is 7 for weekly report.
