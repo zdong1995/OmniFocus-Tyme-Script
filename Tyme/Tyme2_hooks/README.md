@@ -1,5 +1,5 @@
 # Tyme 2 Hooks with OmniFocus
-This is a applescript hook for Tyme 2 to automate with OmniFocus. For each task you completed in Tyme, the script will automatically complete the task with same name in OmniFocus, and then update the task name with a pair of time: `real spend time / planned time`.
+This is an applescript hook for Tyme 2 to automate with OmniFocus. For each task you completed in Tyme, the script will automatically complete the task with same name in OmniFocus, and then update the task name with a pair of time: `real spent time / planned time`.
 
 e.g. `Finish writing documentation` will become `Finish writing documentaton ✅ 3.0/3.5`.
 
