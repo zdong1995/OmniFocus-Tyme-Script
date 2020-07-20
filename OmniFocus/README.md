@@ -25,3 +25,6 @@ YYYY/MM/D1 - YYYY/MM/D7
 - [x] Task Name - [*Project Name*]
 ```
 There will be a dialog window to ask "How many days before right now do you want to report?", and the default value is 7 for weekly report.
+
+# [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
+Start Tyme tracker for current selected task in OmniFocus.
