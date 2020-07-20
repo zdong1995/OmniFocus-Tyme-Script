@@ -1,8 +1,8 @@
 # Productivity Scripts
 Scripts to boost productivity and GTD management.
 
-## [Tyme](https://github.com/zdong1995/productivity_script/tree/master/Tyme)
-Scripts related to time management and time log.
+## [Tyme Scripts](https://github.com/zdong1995/productivity_script/tree/master/Tyme)
+Scripts related to time management and time log with [Tyme 2](https://tyme-app.com/en/) app.
 
 ### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
 Script designed to visulize the working time distribution from your time logger.
@@ -16,7 +16,7 @@ Automated scripts to enhance OmniFocus and simplify the management procedure.
 ### [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
 Start Tyme tracker for current selected task in OmniFocus.
 
-### [CompleteTaskInTyme]()
+### [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
 Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme 2 Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme2_hooks/) but is triggered from OmniFocus side.
 
 ### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)

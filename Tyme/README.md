@@ -1,5 +1,5 @@
 # Tyme Scripts
-Scripts related to time management and time log.
+Scripts related to time management and time log with [Tyme 2](https://tyme-app.com/en/) app.
 
 ## How do I use?
 ### 1. Hooks script
