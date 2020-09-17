@@ -8,8 +8,7 @@
 on timerStartedForTaskRecord(tskRecordID)
 	
 	tell application "Tyme2"
-		GetRecordWithID tskRecordID
-		set tskID to relatedTaskID of lastFetchedTaskRecord
+		set tskID to trackedTaskIDs
 		set tsk to the first item of (every task of every project whose id = tskID)
 		set tskName to name of tsk
 		if tskName = "Relax" then
