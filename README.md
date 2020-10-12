@@ -7,8 +7,14 @@ Scripts related to time management and time log with [Tyme 2](https://tyme-app.c
 ### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
 Script designed to visulize the working time distribution from your time logger.
 
-### [Tyme 2 Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme2_hooks/)
-Applescript hook for Tyme 2 to automate with OmniFocus. For each task you completed in Tyme, the script will automatically complete the task with same name in OmniFocus, and then update the task name with a pair of time: `real spend time / planned time`.
+### [Tyme Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_hooks/)
+Applescript hook for Tyme to automate with OmniFocus. For each task you completed in Tyme, the script will automatically complete the task with same name in OmniFocus, and then update the task name with a pair of time: `real spend time / planned time`.
+
+### [Tyme AutoSync to Calendar](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_BusyCal/)
+Applescript hook for Tyme to automate sync last completed task to create an event in customized calendar.
+
+### [Tyme Relax Reminder](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_Relax_reminder/)
+Applescript hook for Tyme to automate setting a 15min alarm to start playing music in NeteaseMusic, in order to remind you to go back to work.
 
 ## [OmniFocus Scripts](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus)
 Automated scripts to enhance OmniFocus and simplify the management procedure.
