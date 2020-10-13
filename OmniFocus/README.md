@@ -16,7 +16,7 @@ Then you can run the scripts by adding into OmniFocus shortcuts or using other s
 Start Tyme tracker for current selected task in OmniFocus.
 
 ### [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
-Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme 2 Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme2_hooks/) but is triggered from OmniFocus side.
+Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_hooks/) but is triggered from OmniFocus side.
 
 ### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)
 For my weekly plan, I will tag some tasks with tag `this week`. Then to get things done everyday, I will select some tasks to tag `today` and then remove the tag `this week`. This script will help you do this just by one click.
