@@ -8,4 +8,4 @@ Download the `tyme3_applescript_hooks.scpt` file and move to the folder `~/Libra
 For Tyme 2, rename the hook file to `tyme2_applescript_hooks.scpt` file and move to the folder `~/Library/Application Scripts/de.lgerckens.Tyme2/`.
 
 ## 2. Enjoy!
-The hook will be automatically triggered when you complete one task in Tyme.
+The hook will be automatically triggered when you start one task in Tyme.

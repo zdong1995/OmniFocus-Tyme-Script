@@ -21,4 +21,4 @@ if prjName is not in {"IgnoreProject1", "IgnoreProject2", "IgnoreProject3"} then
 Edit the ignoreed project and mapping during project and calendar as you like.
 
 ## 3. Enjoy!
-The hook will be automatically triggered when you complete one task in Tyme.
+The hook will be automatically triggered when you stop one task in Tyme.

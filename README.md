@@ -2,7 +2,7 @@
 Scripts to boost productivity and GTD management.
 
 ## [Tyme Scripts](https://github.com/zdong1995/productivity_script/tree/master/Tyme)
-Scripts related to time management and time log with [Tyme 2](https://tyme-app.com/en/) app.
+Scripts related to time management and time log with [Tyme](https://tyme-app.com/en/) app.
 
 ### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
 Script designed to visulize the working time distribution from your time logger.

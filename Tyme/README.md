@@ -11,6 +11,8 @@ For the other scripts, just download the `.scpt` files and move to anywhere you 
 
 ## Script Library
 
+These features can be adjusted based on your workflow. To use one more component, just copy another script code into the `tyme3_applescript_hooks.scpt` or `tyme2_applescript_hooks.scpt` and save your script.
+
 ### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
 Script designed to visulize the working time distribution from your time logger.
 
