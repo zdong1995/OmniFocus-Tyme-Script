@@ -3,6 +3,8 @@ This is an applescript hook for Tyme to automate with OmniFocus. For each task y
 
 e.g. `Finish writing documentation` will become `Finish writing documentaton ✅ 3.0/3.5`.
 
+![](https://github.com/zdong1995/productivity_script/blob/master/img/finish_in_tyme.gif)
+
 # How to use?
 
 ## 1. Download the script file

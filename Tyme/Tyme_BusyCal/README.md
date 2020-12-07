@@ -1,6 +1,8 @@
 # Tyme Sync with Calendar
 This is an applescript hook for Tyme to automate sync last completed task to create an event in customized calendar. This script is designed for BusyCal application, if you are using Apple Calendar, just change the create events part. You can find help from [Calendar Scripting Guide](https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/CalendarScriptingGuide/Calendar-CreateanEvent.html)
 
+![](https://github.com/zdong1995/productivity_script/blob/master/img/tyme_to_cal.gif)
+
 # How to use?
 
 ## 1. Download the script file

@@ -5,7 +5,7 @@ Automated scripts to enhance OmniFocus and simplify the management procedure.
 
 ### [AddTaskFromText](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/AddTaskFromText)
 
-![](https://github.com/zdong1995/productivity_script/blob/master/OmniFocus/AddTaskFromText/text_to_om.gif)
+![](https://github.com/zdong1995/productivity_script/blob/master/img/text_to_om.gif)
 
 Python script to add multiple tasks to OmniFocus with specified configurations, including project, estimated time, tag, due, etc. The text input should be as TaskPaper style which you can more find more details at [OmniFocus TaskPaper Reference Guide](https://support.omnigroup.com/omnifocus-taskpaper-reference/).
 
@@ -42,22 +42,23 @@ You can also get there quickly by heading to `Help->Open Scripts Folder`.
 
 Then you can run the scripts by adding into OmniFocus shortcuts or using other script launchers.
 
-### [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
-
+#### [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
 Start Tyme tracker for current selected task in OmniFocus.
 
-### [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
+![](https://github.com/zdong1995/productivity_script/blob/master/img/start_in_om.gif)
 
-Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_hooks/) but is triggered from OmniFocus side.
+#### [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
+Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme 2 Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme2_hooks/) but is triggered from OmniFocus side.
 
-### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)
+![](https://github.com/zdong1995/productivity_script/blob/master/img/finish_in_om.gif)
 
+#### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)
 For my weekly plan, I will tag some tasks with tag `this week`. Then to get things done everyday, I will select some tasks to tag `today` and then remove the tag `this week`. This script will help you do this just by one click.
 
-### [WeeklyReport](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/WeeklyReport)
+![](https://github.com/zdong1995/productivity_script/blob/master/img/tag_change.gif)
 
-Generate report for customized days before current date and copy the text to clipboard.
-The format of report will be:
+#### [WeeklyReport](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/WeeklyReport)
+Generate report for customized days before current date and copy the text to clipboard. There will be a dialog window to ask "How many days before right now do you want to report?", and the default value is 7 for weekly report. The format of report will be markdown as following and you can copy to any app you like.
 ``` markdown
 ## Completed Tasks in Last 7 days
 YYYY/MM/D1 - YYYY/MM/D7
