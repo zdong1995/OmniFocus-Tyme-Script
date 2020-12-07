@@ -5,7 +5,7 @@ Automated scripts to enhance OmniFocus and simplify the management procedure.
 
 ### [AddTaskFromText](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/AddTaskFromText)
 
-![](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/AddTaskFromText/text_to_om.gif)
+![](https://github.com/zdong1995/productivity_script/blob/master/OmniFocus/AddTaskFromText/text_to_om.gif)
 
 Python script to add multiple tasks to OmniFocus with specified configurations, including project, estimated time, tag, due, etc. The text input should be as TaskPaper style which you can more find more details at [OmniFocus TaskPaper Reference Guide](https://support.omnigroup.com/omnifocus-taskpaper-reference/).
 

@@ -4,25 +4,30 @@ Scripts to boost productivity and GTD management.
 ## [Tyme Scripts](https://github.com/zdong1995/productivity_script/tree/master/Tyme)
 Scripts related to time management and time log with [Tyme](https://tyme-app.com/en/) app.
 
-### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
+#### [Working Hour Distribution](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Working_hour/)
 Script designed to visulize the working time distribution from your time logger.
 
-### [Tyme Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_hooks/)
+#### [Tyme Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_hooks/)
 Applescript hook for Tyme to automate with OmniFocus. For each task you completed in Tyme, the script will automatically complete the task with same name in OmniFocus, and then update the task name with a pair of time: `real spend time / planned time`.
 
-### [Tyme AutoSync to Calendar](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_BusyCal/)
+#### [Tyme AutoSync to Calendar](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_BusyCal/)
 Applescript hook for Tyme to automate sync last completed task to create an event in customized calendar.
 
-### [Tyme Relax Reminder](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_Relax_reminder/)
+#### [Tyme Relax Reminder](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme_Relax_reminder/)
 Applescript hook for Tyme to automate setting a 15min alarm to start playing music in NeteaseMusic, in order to remind you to go back to work.
 
 ## [OmniFocus Scripts](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus)
 Automated scripts to enhance OmniFocus and simplify the management procedure.
 
-### [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
+- [AddTaskFromText](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/AddTaskFromText)
+Python script to add multiple tasks to OmniFocus with specified configurations.
+
+![](https://github.com/zdong1995/productivity_script/blob/master/OmniFocus/AddTaskFromText/text_to_om.gif)
+
+- [StartTymeTracker](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/StartTymeTracker)
 Start Tyme tracker for current selected task in OmniFocus.
 
-### [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
+- [CompleteTaskInTyme](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/CompleteTaskInTyme)
 Complete current selected task in OmniFocus and complete the task with same name in Tyme. Then update the task name with a pair of time: `real spent time / planned time`, which is similar to [Tyme 2 Hooks with OmniFocus](https://github.com/zdong1995/productivity_script/tree/master/Tyme/Tyme2_hooks/) but is triggered from OmniFocus side.
 
 ### [TagToday](https://github.com/zdong1995/productivity_script/tree/master/OmniFocus/TagToday)
