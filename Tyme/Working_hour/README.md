@@ -2,7 +2,7 @@
 This is a script designed to visulize the working time log from your time logger. You can export `.csv` report from time loger app and run script to automatically generate your working hour distribtuion. The script support three precisions, 15 min, 30 min and 1 hour.
 
 
-![](https://github.com/zdong1995/productivity_script/blob/master/img/wrok_hour.gif)
+![](https://github.com/zdong1995/productivity_script/blob/master/img/work_hour.gif)
 
 # How to use?
 
