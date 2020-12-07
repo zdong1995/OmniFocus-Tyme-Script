@@ -1,7 +1,7 @@
-from urllib import quote
+from urllib.parse import quote
 import webbrowser
 
-with open("/Users/zdong1995/Desktop/Tasks.taskpaper") as f:
+with open("ENTER YOUR FILE PATH HERE") as f:
     files = f.readlines()
 
 i = 0
@@ -17,5 +17,4 @@ while i < len(files):
         content += files[i]
         i += 1
     url = "omnifocus:///paste?target=/task/" + projectName +  "&content=" + quote(content)
-    print(url)
     webbrowser.open(url)
