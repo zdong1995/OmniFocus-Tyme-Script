@@ -12,8 +12,8 @@ precision = str(sys.argv[2])
 df = pd.read_csv(f_name)
 
 # create timestamp in report and round time to nearest quarter
-start = pd.to_datetime(df['start']).dt.round(precision)
-end = pd.to_datetime(df['end']).dt.round(precision)
+start = pd.to_datetime(df['start_time']).dt.round(precision)
+end = pd.to_datetime(df['end_time']).dt.round(precision)
 period = pd.concat([start, end], axis = 1)
 
 # create blank time range table and initialize freq to 0
@@ -28,8 +28,8 @@ dist['freq'] = 0
 '''
 col = df.shape[0]
 for i in range(col):
-    start_time = str(period.loc[i]['start'])
-    end_time = str(period.loc[i]['end'])
+    start_time = str(period.loc[i]['start_time'])
+    end_time = str(period.loc[i]['end_time'])
     if end_time == '00:00': # corner case for end time = 0:00 of second day
         end_time = '23:59'
     time_range = pd.date_range(start_time, end_time, freq=precision)

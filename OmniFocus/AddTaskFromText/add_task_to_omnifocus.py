@@ -1,3 +1,7 @@
+# Script designed to add multiple tasks to OmniFocus from text file.
+# Copyright © 2020 Zhang Dong
+# Licensed under MIT License
+
 from urllib.parse import quote
 import webbrowser
 
