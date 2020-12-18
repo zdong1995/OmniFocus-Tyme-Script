@@ -2,13 +2,21 @@
 # Copyright © 2020 Zhang Dong
 # Licensed under MIT License
 
-from urllib.parse import quote
+from urllib.request import quote
 import webbrowser
 
-with open("ENTER YOUR FILE PATH HERE") as f:
+with open("/Users/zdong1995/Desktop/Tasks.taskpaper") as f:
     files = f.readlines()
 
 i = 0
+
+def get_content(cur):
+    j = len(cur) - 1
+    while cur[j] is not " ":
+        j -= 1
+    time = cur[j+1:-1] # ignore '\n'
+    task = cur[:j]
+    return task + " @estimate(" + time + ")\n"
 
 while i < len(files):
     if files[i] is '\n':
@@ -18,7 +26,16 @@ while i < len(files):
     i += 1
     content = ''
     while i < len(files) and not (files[i] is '\n' or files[i][0].isalpha()):
-        content += files[i]
+        cur = files[i]
+        if cur[-2] is "h": # task
+            content += get_content(cur)
+        else: # subproject
+            content += cur
+
         i += 1
+    print(content)
     url = "omnifocus:///paste?target=/task/" + projectName +  "&content=" + quote(content)
+    print(url)
     webbrowser.open(url)
+
+
